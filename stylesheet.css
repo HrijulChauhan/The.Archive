@@ -1,0 +1,424 @@
+@font-face {
+  font-family: NeueBook;
+  src: url("/fonts/PPNeueMontreal-Book.otf");
+}
+@font-face {
+  font-family: NeueMed;
+  src: url("/fonts/PPNeueMontreal-Medium.otf");
+}
+
+@font-face {
+  font-family: NeueBold;
+  src: url("/fonts/PPNeueMontreal-Bold.otf");
+}
+
+/* Neue world is a serif font */
+@font-face {
+font-family: "NeueWorldReg";
+  src: url("/fonts/PPNeueWorld-Regular.otf");
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:visited{
+  text-decoration: none;
+}
+
+body{
+  cursor: crosshair; 
+  background-color: #ffffff;
+  color: #121212;
+  z-index: 0;
+}
+.dark-mode{
+  background-color: #121212;
+  color: white;
+}
+/* The actual styling */
+/* 1603 is width I think */
+/* The vw conversion is: 0.052 for 1 pixel */
+.nav-bar{
+  font-family:"Inter";
+  font-weight: 600;
+  font-size: 18px;
+  padding: .208vw;
+  display: flex;
+  justify-content: space-between;
+  animation : move 1s ease-in-out;
+}
+
+.hero-text{
+  font-family: "NeueMed";
+  font-size: 50px;
+  margin-top: 13vw;
+  margin-left: 7.213vw;
+  margin-bottom: -3.64vw;
+  letter-spacing: 1px;
+  animation : move 1.25s ease-in-out;
+}
+.firstline{
+  
+}
+.secondline{
+}
+@keyframes move {
+  from {
+    opacity: 0%;transform: translateY(42px);
+  }
+
+  to {
+    opacity: 100%;transform: translateY(0px);
+  }
+}
+
+.hero-subtext{
+  margin-top: 4.28vw;
+  margin-left: 7.213vw;
+  margin-bottom: -7.00vw;
+  font-family: "NeueMed";
+  letter-spacing: 1.5px;
+  font-size:22px;
+  opacity: 0.8 ;
+  animation : move 1.25s ease-in-out;
+}
+.hero-content{
+  margin-top: 10.4vw;
+  height: 65vw;
+  max-height: 100%;
+}
+
+.rect-item{
+  margin: auto;
+  width: 84.64vw;
+  margin-top: 7.8vh;
+  border-radius: .78vw;
+  height: 65vw;
+  background-image: url("/images/404136mtsdl.jpg");
+}
+
+.project-counter{
+  margin-top: .52vh;
+  margin-left: 7.28vw;
+  font-size: 18px;
+  font-family: "NeueMed";
+}
+
+#first{
+  background-image: url("/images/NFTrightclick\,jpg\ \(2022_02_08\ 10_01_42\ UTC\).jpg");
+  background-size: 200%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+  animation : move 1.25s ease-in-out;
+}
+
+#second{
+  background-image: url("/images/kechla\ 19.jpg");
+  background-size: 120%;
+  background-position: 51.5%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+  
+}
+
+#seventh{
+  background-image: url("/images/reflection.jpg");
+  background-size: 120%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+
+#ninth{
+  background-image: url("/images/convo.jpg");
+  background-size: 135%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#third{
+  background-image: url("/images/trimmed.gif");
+  background-size: 120%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#sixth{
+  background-image: url("/images/payout.jpg");
+  background-size: 120%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#fifth{
+  background-image: url("/images/lightshow.jpg");
+  background-size: 120%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#eighth{
+  background-image: url("/images/stray.jpg");
+  background-size: 120%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#fourth{
+  background-image: url("/images/pacman.png");
+  background-size: 184%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#tenth{
+  background-image: url("/images/elon\ musk\ lower.jpg");
+  background-size: 140%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#eleventh{
+  background-image: url("/images/ancient\ rome.png");
+  background-size: 100%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#twelve{
+  background-image: url("/images/Neon\ White\ 03-07-2022\ 10_41_24.png  ");
+  background-size: 150%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#thirteen{
+  background-image: url("/images/_DSC1129.jpg");
+  background-size: 122%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+.vercel{
+  background: linear-gradient(to right, #f12711 10%, #f5af19 50%, #f5af19 70%, #f54c19 90%);
+  background-size: 200% auto;
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+  animation-delay: 0;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.bluevercel{
+  background: linear-gradient(to right, #3F5EFB 10%, #fc46b6 50%, #d726e7 80%, #3F5EFB 100%);
+  background-size: 200% auto;
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: blueshine 3s linear infinite;
+}
+
+@keyframes blueshine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.left-nav{
+  position: fixed;
+  overflow: visible;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  margin-top:91.5vh;
+  z-index: 1;
+  animation : move 1.25s ease-in-out;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  padding-bottom: 11px;
+  align-items: center;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  color: #121212;
+}
+
+.info-container{
+  margin-left: .208vw;
+}
+
+.info-text{
+  font-family: "Inter";
+  margin-top: 40px;
+  margin-left: .208vw;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  animation : move 1.25s ease-in-out;
+}
+.first-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.friends{
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 600;
+  margin-top: 40px;
+  padding-left: 70px;
+  letter-spacing: 0.4px;
+  animation : move 1.25s ease-in-out;
+}
+
+.cool-links{
+  font-family: "Inter";
+  margin-top: 40px;
+  margin-left: .208vw;
+  font-size: 14px;
+  font-weight: 600;
+  animation : move 1.25s ease-in-out;
+}
+
+.links{
+  line-height: 1.25;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.photo-me{
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: .208vw;
+  background-image: url("/images/dunke-dunkey.gif");
+  background-size: 150%;
+  background-position: 50%;
+  animation : move 1.25s ease-in-out;
+}
+
+.me-text{
+  font-family: "Inter";
+  margin-left: .208vw;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: justify;
+  animation : move 1.25s ease-in-out;
+}
+
+.contact{
+  font-family: "Inter";
+  margin-top: 20px;
+  margin-left: .208vw;
+  font-size: 14px;
+  font-weight: 600;
+  animation : move 1.25s ease-in-out;
+}
+.social-links{
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The zoom in animation */
+/*
+#first:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#second:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#third:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#fourth:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#fifth:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#sixth:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+*/
+

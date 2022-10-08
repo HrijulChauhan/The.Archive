@@ -1,0 +1,148 @@
+@font-face {
+  font-family: NeueBook;
+  src: url("/fonts/PPNeueMontreal-Book.otf");
+}
+@font-face {
+  font-family: NeueMed;
+  src: url("/fonts/PPNeueMontreal-Medium.otf");
+}
+
+/* Neue world is a serif font */
+@font-face {
+font-family: "NeueWorldReg";
+  src: url("/fonts/PPNeueWorld-Regular.otf");
+}
+
+body{
+  cursor: crosshair; 
+}
+/* The actual styling */
+/* 1603 is width I think*/
+
+.nav-bar{
+  font-family:"NeueMed";
+  font-size: 18px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-text{
+  font-family: "NeueMed";
+  font-size: 50px;
+  margin-top: 250px;
+  margin-left: 150.25px;
+  margin-bottom: -70px;
+  letter-spacing: 1px;
+}
+.hero-subtext{
+  margin-top: 80px;
+  margin-left: 150.25px;
+  margin-bottom: -70px;
+  font-family: "NeueMed";
+  letter-spacing: 1px;
+  font-size:24px;
+  color: rgb(68, 68, 68);
+}
+.hero-content{
+  margin-top: 100px;
+}
+
+.rect-item{
+  margin: auto;
+  width: 85%;
+  margin-top: 150px;
+  border-radius: 30px;
+  height: 950px;
+  background-image: url("/images/404136mtsdl.jpg");
+}
+
+.project-counter{
+  margin-top: 10px;
+  margin-left: 140px;
+  font-size: 24px;
+  font-family: "NeueMed";
+}
+
+#first{
+  background-image: url("/images/NFTrightclick\,jpg\ \(2022_02_08\ 10_01_42\ UTC\).jpg");
+  background-size: 140%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#second{
+  background-image: url("/images/kechla\ 19.jpg");
+  background-size: 50%;
+  background-position: 0%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+  
+}
+
+#third{
+  background-image: url("/images/payout.jpg");
+  background-size: 100%;
+  background-position: 15%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+
+#fourth{
+  background-image: url("/images/convo.jpg");
+  background-size: 100%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+#fifth{
+  background-image: url("/images/trimmed.gif");
+  background-size: 110%;
+  background-position: 50%;
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+}
+
+/* The zoom in animation and the grayscale */
+#first:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#second:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#third:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#fourth:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#fifth:hover{
+  cursor:crosshair;
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+
