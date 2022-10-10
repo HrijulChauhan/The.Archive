@@ -95,7 +95,7 @@ body{
   margin-top: 7.8vh;
   border-radius: .78vw;
   height: 65vw;
-  background-image: url("/images/404136mtsdl.jpg");
+  background-image: url("/images/404136mtsdl.jpg") ;
 }
 
 .project-counter{
