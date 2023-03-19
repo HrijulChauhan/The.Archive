@@ -40,9 +40,9 @@ body{
 /* 1603 is width I think */
 /* The vw conversion is: 0.052 for 1 pixel */
 .nav-bar{
-  font-family:"Inter";
-  font-weight: 600;
-  font-size: 18px;
+  font-family:sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   padding: .208vw;
   display: flex;
   justify-content: space-between;
@@ -110,7 +110,7 @@ body{
 }
 
 #first{
-  background-image: url("/images/NFTrightclick\,jpg\ \(2022_02_08\ 10_01_42\ UTC\).jpg");
+  background-image: url("/images/NFTrightclick\,jpg\ \(2022_02_08\ 10_01_42\ UTC\).webp");
   background-size: 200%;
   background-position: 50%;
   -webkit-transform: scale(1);
@@ -121,7 +121,7 @@ body{
 }
 
 #second{
-  background-image: url("/images/kechla\ 19.jpg");
+  background-image: url("/images/kechla\ 19.webp");
   background-size: 120%;
   background-position: 51.5%;
   -webkit-transform: scale(1);
@@ -132,7 +132,7 @@ body{
 }
 
 #seventh{
-  background-image: url("/images/reflection.jpg");
+  background-image: url("/images/reflection.webp");
   background-size: 120%;
   background-position: 50%;
   -webkit-transform: scale(1);
@@ -163,7 +163,7 @@ body{
 }
 
 #sixth{
-  background-image: url("/images/payout.jpg");
+  background-image: url("/images/payout.webp");
   background-size: 120%;
   background-position: 50%;
   -webkit-transform: scale(1);
@@ -193,7 +193,7 @@ body{
 }
 
 #fourth{
-  background-image: url("/images/pacman.png");
+  background-image: url("/images/pacman.webp");
   background-size: 184%;
   background-position: 50%;
   -webkit-transform: scale(1);
@@ -223,7 +223,7 @@ body{
 }
 
 #twelve{
-  background-image: url("/images/Neon\ White\ 03-07-2022\ 10_41_24.png  ");
+  background-image: url("/images/Neon\ White\ 03-07-2022\ 10_41_24.webp");
   background-size: 150%;
   background-position: 50%;
   -webkit-transform: scale(1);
@@ -278,9 +278,9 @@ body{
 .left-nav{
   position: fixed;
   overflow: visible;
-  font-family: "Inter";
-  font-size: 16px;
-  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   margin-top:91.5vh;
   z-index: 1;
   animation : move 1.25s ease-in-out;
