@@ -293,8 +293,8 @@ body{
   margin-top: 250px;
   padding-bottom: 11px;
   align-items: center;
-  font-family: "Inter";
-  font-weight: 500;
+  font-family: sans-serif;
+  font-weight: 400;
   font-size: 16px;
   color: #121212;
 }
@@ -304,11 +304,11 @@ body{
 }
 
 .info-text{
-  font-family: "Inter";
+  font-family: sans-serif;
   margin-top: 40px;
   margin-left: .208vw;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.4px;
   animation : move 1.25s ease-in-out;
 }
@@ -327,11 +327,11 @@ body{
 }
 
 .cool-links{
-  font-family: "Inter";
+  font-family: sans-serif;
   margin-top: 40px;
   margin-left: .208vw;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   animation : move 1.25s ease-in-out;
 }
 
@@ -353,20 +353,20 @@ body{
 }
 
 .me-text{
-  font-family: "Inter";
+  font-family: sans-serif;
   margin-left: .208vw;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: justify;
   animation : move 1.25s ease-in-out;
 }
 
 .contact{
-  font-family: "Inter";
+  font-family: sans-serif;
   margin-top: 20px;
   margin-left: .208vw;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   animation : move 1.25s ease-in-out;
 }
 .social-links{
