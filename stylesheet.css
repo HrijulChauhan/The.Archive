@@ -55,7 +55,8 @@ body{
   margin-top: 13vw;
   margin-left: 7.213vw;
   margin-bottom: -3.64vw;
-  letter-spacing: 1px;
+  letter-spacing: -1.5px;
+  line-height: 50px;
   animation : move 1.25s ease-in-out;
 }
 .firstline{
@@ -67,7 +68,7 @@ body{
   from {
     opacity: 0%;transform: translateY(42px);
   }
-
+  
   to {
     opacity: 100%;transform: translateY(0px);
   }
@@ -77,10 +78,13 @@ body{
   margin-top: 4.28vw;
   margin-left: 7.213vw;
   margin-bottom: -7.00vw;
-  font-family: "NeueMed";
+  font-family: "NeueBook";
   letter-spacing: 1.5px;
   font-size:22px;
-  opacity: 0.8 ;
+  opacity: 0.8;
+  margin-top: 100px;
+  letter-spacing: 0.3px;
+  color: rgb(76, 76, 76);
   animation : move 1.25s ease-in-out;
 }
 .hero-content{
